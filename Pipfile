@@ -5,14 +5,15 @@ name = "pypi"
 
 [packages]
 jupyter = "*"
-numpy = "*"
 matplotlib = "*"
 scipy = "*"
 rich = "*"
 pandas = "*"
 sounddevice = "*"
+numpy = "*"
 
 [dev-packages]
+numpy = "*"
 
 [requires]
 python_version = "3.12"
