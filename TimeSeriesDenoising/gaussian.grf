@@ -1,0 +1,106 @@
+;This file was created by Graph (http://www.padowan.dk)
+;Do not change this file from other programs.
+[Graph]
+Version = 4.5.0.586
+MinVersion = 2.5
+OS = Windows NT 6.2 
+
+[Func1]
+FuncType = 0
+y = exp(-abs(x^5))
+Color = clMaroon
+Size = 4
+
+[Shade1]
+LegendText = Relleno 1
+ShadeStyle = 4
+BrushStyle = 0
+Color = 0x00CCFFFF
+FuncNo = 1
+Func2No = 10
+
+[Axes]
+xMin = -4.06172322254727
+xMax = 4.75847594745273
+xTickUnit = 0.2
+xGridUnit = 0.2
+xShowGrid = 1
+yMin = -0.15553222330702
+yMax = 1.17780111490298
+yTickUnit = 0.05
+yGridUnit = 0.05
+yShowGrid = 1
+AxesColor = clBlue
+GridColor = 0x00FF9999
+NumberFont = Trebuchet MS,10,clBlack
+LabelFont = Trebuchet MS,12,clBlack,B
+LegendFont = Trebuchet MS,10,clBlack
+ShowLegend = 0
+Radian = 1
+
+[Func2]
+FuncType = 0
+y = exp(-abs(x))
+Color = clBlue
+Size = 4
+
+[Func3]
+FuncType = 0
+y = exp(-abs(x^-1))
+Style = 1
+Color = clBlue
+Size = 3
+
+[Func4]
+FuncType = 0
+y = exp(-x^-2)
+Style = 1
+Color = clRed
+Size = 3
+
+[Func5]
+FuncType = 0
+y = exp(-x^2)
+Color = clRed
+Size = 3
+
+[Func6]
+FuncType = 0
+y = exp(-abs(x^3))
+Color = clFuchsia
+Size = 4
+
+[Func7]
+FuncType = 0
+y = exp(-abs(x^-3))
+Style = 1
+Color = clFuchsia
+Size = 4
+
+[Func8]
+FuncType = 0
+y = exp(-x^4)
+Color = clGreen
+Size = 4
+
+[Func9]
+FuncType = 0
+y = exp(-x^-4)
+Style = 1
+Color = clGreen
+Size = 4
+
+[Func10]
+FuncType = 0
+y = exp(-abs(x^-5))
+Style = 1
+Color = clMaroon
+Size = 4
+
+[Data]
+TextLabelCount = 0
+FuncCount = 10
+PointSeriesCount = 0
+ShadeCount = 1
+RelationCount = 0
+
