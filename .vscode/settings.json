@@ -1,4 +1,7 @@
 {
     "python.analysis.autoImportCompletions": true,
-    "taipyStudio.gUI.elementsFilePaths": []
+    "taipyStudio.gUI.elementsFilePaths": [],
+    "python.analysis.extraPaths": [
+        "./@myLib"
+    ]
 }
