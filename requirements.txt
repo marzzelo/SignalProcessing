@@ -18,3 +18,5 @@ openpyxl>=3.1.0
 
 # Optional: PyWavelets for wavelet analysis (Phase 6+)
 PyWavelets>=1.4.0
+
+rich
